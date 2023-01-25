@@ -1,5 +1,18 @@
-.boton:hover{
+body {
+    padding: 500px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton:hover {
     background-color: green;
     color: white;
+    border-radius: 5px;
 }
+.boton::before {
+    content: "Pasa por encima";
 
+}
+.boton:hover::before {
+    content: "¡Hecho!";
+}
