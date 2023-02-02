@@ -60,3 +60,19 @@
 .twitter-btn:hover{
     background-color: #ddd;
 }
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span {
+    color: #8b8b8b;
+}
+.inner-form{
+    
+}
