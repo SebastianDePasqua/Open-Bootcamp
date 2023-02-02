@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;500;700&display=swap');
 
-*{
+{
     font-family: 'IBM Plex Sans', sans-serif;
+    border: red 1px solid;
+
 }
 .container{
     display: flex;
@@ -15,12 +17,20 @@
     border: none;
     border-radius: 5px;
     height: 40px;
+    align-items: center;
+    display: flex;
+    padding: 2px;
 }
 .google-btn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     
 }
 .google-btn span{
     color: white;
-    padding: 15px;
+    padding: 12px;
     font-weight: 500;
 }
