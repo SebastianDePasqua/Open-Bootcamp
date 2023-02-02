@@ -31,10 +31,32 @@
     display: flex;
 }
 .google-btn picture img {
-    padding: 5%;
+    padding: 5px;
 }
 .google-btn span{
     color: white;
     padding: 12px;
     font-weight: 500;
+}
+.twitter-btn {
+    color: #bbb;
+    background-color: #eee;;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    padding: 2px;
+    cursor: pointer;
+}
+.twitter-btn picture{   
+    width: 35px;
+    height: 35px; 
+    display: flex;
+}
+.twitter-btn picture img{
+    padding: 5px;
+}
+.twitter-btn:hover{
+    background-color: #ddd;
 }
