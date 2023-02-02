@@ -7,6 +7,11 @@
     justify-content: center;
     gap: 20px;
 }
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
 .google-btn{
     background-color: rgb(35, 128, 229);
     border: none;
@@ -15,10 +20,11 @@
     align-items: center;
     display: flex;
     padding: 2px;
+    cursor: pointer;
 }
 .google-btn picture{
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
