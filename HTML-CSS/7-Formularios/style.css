@@ -74,5 +74,12 @@
     color: #8b8b8b;
 }
 .inner-form{
-    
+    display: flex ;
+    gap: 10px;
+}
+label{
+    width: 100%;
+}
+label input{
+    width: 100%;
 }
