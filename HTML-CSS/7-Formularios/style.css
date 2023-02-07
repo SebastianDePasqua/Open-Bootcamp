@@ -101,3 +101,25 @@ label input{
     font-size: 14pt;
 }
 
+label input:hover{
+    background-color: white;
+    border: #f3f3f4 solid 1px;
+    box-shadow: 0 0 4px #ea62fc4f; 
+}
+label input:focus{
+    background-color: white;
+    border: #f3f3f4 solid 3px;
+    box-shadow: 0 0 4px #eb50ff8d; 
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.checkbox-label input [type="checkbox"]{
+    width: 40px;
+    height: 40px;
+}
+.checkbox-label span{
+    font-weight: 400;
+}
