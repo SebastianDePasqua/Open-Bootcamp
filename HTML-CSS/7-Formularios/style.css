@@ -113,7 +113,6 @@ form {
     font-size: 14pt;
     transition: background-color 250ms, box-shadow 250ms;
 }
-
 .inputs input:hover{
     background-color: white;
     border: #f3f3f4 solid 1px;
@@ -134,7 +133,10 @@ form {
     color: #6e6d7a;
     padding-left: 75px;
 }
-
+.checkbox-label input{
+  width: 25px;
+  height: 25px;
+}
 .checkbox-label input:hover{
     border: none;
     box-shadow: none;
