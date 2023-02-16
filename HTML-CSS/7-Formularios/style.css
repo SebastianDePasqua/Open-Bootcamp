@@ -127,7 +127,7 @@ form {
 .checkbox-label{
     display: flex;
     flex-direction: row;
-    border: green solid 1px;
+    border: purple solid 1px;
 }
 .checkbox-label span{
     font-weight: 400;
@@ -135,7 +135,7 @@ form {
     padding-left: 75px;
 }
 
-/*.checkbox-label input:hover{
+.checkbox-label input:hover{
     border: none;
     box-shadow: none;
     background-color: white;
@@ -149,10 +149,10 @@ form {
     width: 25px;
     height: 25px;
 }
-/*.checkbox-label input:checked{
+.checkbox-label input:checked{
     background-color: #4f3cc9;
     border: #4f3cc9 solid 1px;
-}
+}/*Esto no me esta funcionando*/
 .submit-btn {
   background-color: #ea4c89;
   color: white;
@@ -167,4 +167,4 @@ form {
 }
 .submit-btn:hover {
   opacity: 0.75;
-}*/
+}
