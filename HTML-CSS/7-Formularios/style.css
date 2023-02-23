@@ -90,17 +90,18 @@ form {
   padding: 1px;
   border: blue solid 1px;
 }
-.form-name{
+.half{
   display: flex;
+  flex-direction: row;
   gap: 15px;
+  border: yellow solid 1px;
 }
 .inputs{
   box-sizing: border-box;
-  width: 100%;
   display: flex;
   flex-direction: column;
   border: green solid 1px;
-}/*ACA TENGO EL QUILOMBO. ENEL FORM-NAME Y EN INPUTS*/
+}
 .inputs span {
   font-weight: 700;
 }
@@ -135,26 +136,7 @@ form {
 }
 .checkbox-label input{
   width: 25px;
-  height: 25px;
 }
-.checkbox-label input:hover{
-    border: none;
-    box-shadow: none;
-    background-color: white;
-    width: 25px;
-    height: 25px;
-}
-.checkbox-label input:focus{
-    border: none;
-    box-shadow: none;
-    background-color: white;
-    width: 25px;
-    height: 25px;
-}
-.checkbox-label input:checked{
-    background-color: #4f3cc9;
-    border: #4f3cc9 solid 1px;
-}/*Esto no me esta funcionando*/
 .submit-btn {
   background-color: #ea4c89;
   color: white;
